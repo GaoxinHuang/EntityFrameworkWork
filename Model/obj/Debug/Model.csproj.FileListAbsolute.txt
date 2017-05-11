@@ -1,0 +1,9 @@
+D:\work\Projects\Visual_Studio\EntityFrameworkWork\Model\bin\Debug\Model.dll.config
+D:\work\Projects\Visual_Studio\EntityFrameworkWork\Model\bin\Debug\Model.dll
+D:\work\Projects\Visual_Studio\EntityFrameworkWork\Model\bin\Debug\Model.pdb
+D:\work\Projects\Visual_Studio\EntityFrameworkWork\Model\bin\Debug\EntityFramework.dll
+D:\work\Projects\Visual_Studio\EntityFrameworkWork\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\work\Projects\Visual_Studio\EntityFrameworkWork\Model\bin\Debug\EntityFramework.xml
+D:\work\Projects\Visual_Studio\EntityFrameworkWork\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\work\Projects\Visual_Studio\EntityFrameworkWork\Model\obj\Debug\Model.dll
+D:\work\Projects\Visual_Studio\EntityFrameworkWork\Model\obj\Debug\Model.pdb
