@@ -13,7 +13,7 @@ namespace WebApp.Controllers
         // GET: User
         public ActionResult Index()
         {
-            using (DatabaseContext db = new DatabaseContext())
+            using (CodeFirstDbContext db = new CodeFirstDbContext())
             {
                 var userList = db.User.ToList().Select(u => new UserViewModel()
                 {
