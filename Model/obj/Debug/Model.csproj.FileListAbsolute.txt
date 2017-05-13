@@ -7,3 +7,4 @@ D:\work\Projects\Visual_Studio\EntityFrameworkWork\Model\bin\Debug\EntityFramewo
 D:\work\Projects\Visual_Studio\EntityFrameworkWork\Model\bin\Debug\EntityFramework.SqlServer.xml
 D:\work\Projects\Visual_Studio\EntityFrameworkWork\Model\obj\Debug\Model.dll
 D:\work\Projects\Visual_Studio\EntityFrameworkWork\Model\obj\Debug\Model.pdb
+D:\work\Projects\Visual_Studio\EntityFrameworkWork\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
