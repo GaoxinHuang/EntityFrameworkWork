@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-    [Table("User")]
+    //[Table("User")]
     public class User
     {
         public int Id { get; set; }
@@ -16,5 +16,6 @@ namespace Model
         public string Password { get; set; }
         public string Name { get; set; }
         public List<Account> Account { get; set; }
+        public string Job { get; set; }
     }
 }

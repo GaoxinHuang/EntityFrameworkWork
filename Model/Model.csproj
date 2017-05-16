@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="AccountModel.cs" />
     <Compile Include="CodeFirstDbContext.cs" />
+    <Compile Include="CodeFirstDbContextSeeder.cs" />
     <Compile Include="CodeFirstRepository.cs" />
     <Compile Include="DatabaseModel.Context.cs">
       <AutoGen>True</AutoGen>

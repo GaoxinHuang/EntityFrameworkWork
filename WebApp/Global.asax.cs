@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -7,6 +8,7 @@ using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
 using System.Web.Http;
+using Model;
 
 namespace WebApp
 {
@@ -17,7 +19,10 @@ namespace WebApp
             // Code that runs on application startup
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
-            RouteConfig.RegisterRoutes(RouteTable.Routes);            
+            RouteConfig.RegisterRoutes(RouteTable.Routes);
+            //这里数据库里必须有 _MigrationHistory 表
+            //Database.SetInitializer(new DropCreateDatabaseIfModelChanges<CodeFirstDbContext>());
+            Database.SetInitializer(new CodeFirstDbContextSeeder());
         }
     }
 }
